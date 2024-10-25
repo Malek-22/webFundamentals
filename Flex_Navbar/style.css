@@ -1,0 +1,43 @@
+/* Styling for the navigation bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-title {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Spacing between list items */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+.nav-links a.active {
+    background-color: #333;
+    border-bottom: 3px solid white; /* Active tab styling */
+}
+
+.nav-links button.btn {
+    background-color: #00BFD8; /* Light blue background for button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.nav-links button.btn:hover {
+    background-color: #009cb2; /* Darker blue on hover */
+}
