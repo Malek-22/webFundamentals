@@ -1,0 +1,59 @@
+/* General button styling */
+button {
+    font-family: Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    flex-direction: column;
+    display: block;
+}
+
+.container {
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Search button styling */
+.search-button {
+    color: #00c4cc;
+    background-color: white;
+    border: 2px solid #00c4cc;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+/* Plus button styling */
+.plus-button {
+    color: white;
+    background-color: #00c4cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+/* Create Account button styling */
+.create-account-button {
+    color: white;
+    background-color: #0066cc;
+    padding: 12px 50px;
+    font-size: 18px;
+    box-shadow: 10px 5px 5px black;
+    border: 3px solid black;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    margin-left: 70px;
+}
