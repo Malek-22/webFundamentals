@@ -1,0 +1,50 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Styling for h1 - MyCloud */
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 36px;
+    margin: 0;
+    text-align: left;
+    border: 10px solid;
+}
+
+.highlight {
+    color: #00FFFF; /* Light blue for "Cloud" */
+}
+
+/* Styling for h2 - Completed Projects */
+.projects-header {
+    background-color: #6a0dad; /* Purple background */
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    margin: 0;
+    border: 10px solid;
+}
+
+/* Contact Us Section */
+.contact {
+    background-color: #add8e6; /* Light blue background */
+    text-align: right; /* Align "Contact Us" to the right */
+    padding: 10px;
+    border: 10px solid white;
+}
+
+.contact a {
+    text-decoration: underline;
+    color: #6a0dad; /* Purple text for the link */
+    font-weight: bold;
+}
